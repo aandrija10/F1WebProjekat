@@ -1,0 +1,114 @@
+.kontejner{
+    display: flex;
+    border:  1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+.kontLokacije{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+.red{
+    display: flex;
+    flex-grow: 3;
+    flex-basis: 50px;
+    min-width: 500px;
+    min-height: 80px;
+}
+
+.lok{
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    flex: 1 1 300px;
+    display: flex;
+    margin: 20px;
+    padding : 10px;
+    text-align: center;
+    background-color: lightslategray;
+}
+h1 {
+    text-align: center;
+    color: brown;
+    margin: 5px;
+    padding: 5px;
+}
+h2 {
+    text-align: center;
+    border-bottom: 1px solid brown;
+    color: brown;
+    margin-top: 50px;
+    padding: 5px;
+}
+h3 {
+    text-align: center;
+    border-bottom: 1px solid brown;
+    color: brown;
+    font-style: oblique ;
+}
+button {
+    margin: 5px;
+    padding: 5px;
+}
+.labTrka{
+    
+    text-align: center;
+    border: 1px dotted black;
+    font-style: italic;
+}
+.dugmeTrka, .divMargina, .dugmePocetna {
+    padding: 3px;
+    margin: 10px;
+}
+.divZaUvod {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dugmeZaDelete {
+    padding: 3px;
+    margin: 10px;
+    color: black;
+    background-color: #FF6666;
+    font-size: large;
+}
+
+.labelaZaBrisanje {
+    padding: 3px;
+    margin: 10px;
+    border-bottom: 1px dotted  brown;
+}
+.dugmeDodajVozaca {
+    padding: 3px;
+    margin: 10px;
+    color: rgba(red, rgb(8, 1, 1), blue, alpha);
+    background-color: rgba(51, 187, 24, 0.788);
+    font-size: large;
+}
+.dugmeZaEdit {
+    padding: 3px;
+    margin: 10px;
+    color: black;
+    background-color: yellow;
+    font-size: large;
+}
