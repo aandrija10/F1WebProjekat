@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\back\\Back.csproj": {}
+    "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\Back\\Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\back\\Back.csproj": {
+    "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\Back\\Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\back\\Back.csproj",
+        "projectUniqueName": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\Back\\Back.csproj",
         "projectName": "Back",
-        "projectPath": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\back\\Back.csproj",
+        "projectPath": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\Back\\Back.csproj",
         "packagesPath": "C:\\Users\\aandrija10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\back\\obj\\",
+        "outputPath": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aandrija10\\AppData\\Roaming\\NuGet\\NuGet.Config"

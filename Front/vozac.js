@@ -48,7 +48,7 @@ export class Vozac{
         this.tim=tim;
         this.prezime = prezime;
         this.pozicija = pozicija;
-        this.miniKontejner.innerHTML = this.ime + " " +this.prezime + " ( " + this.tim + " )";
+        this.miniKontejner.innerHTML = this.ime + " " + this.prezime + " ( " + this.tim + " )";
         this.miniKontejner.style.backgroundColor=this.timBoja(this.tim); 
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1Oe1fZ8Vchj+avTTcV5ltUQ86U4fl6YNGpGN7qundyxXa/HLQ9Y5sHZVtIWvl5/sLvB0nVNnJK/lIWZztSzVg==",
+  "dgSpecHash": "DUiJ//CeZSd8hteqtN2QSEmb+UGZh9T8wjOnwDaCBRj8vAC+VZ9vNR8KUluAycjv7xYsD9dEpa6x/JaQm2P4CA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\back\\Back.csproj",
+  "projectFilePath": "C:\\Users\\aandrija10\\Desktop\\skola faks\\Web\\Projekat F1 new\\Back\\Back.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aandrija10\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aandrija10\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

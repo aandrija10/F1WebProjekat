@@ -15,12 +15,13 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+    min-width: 500px;
     margin: 5px;
     padding: 5px;
 }
 .red{
     display: flex;
-    flex-grow: 3;
+    flex-shrink: 3;
     flex-basis: 50px;
     min-width: 500px;
     min-height: 80px;

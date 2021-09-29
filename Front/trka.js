@@ -173,7 +173,6 @@ export class Trka{
                                             });
         
                                     } else { // grid mesto nije prazno
-                                        //kod za promenu vozaca !!!
                                         alert("Postoji vozac na datom grid mestu");
                                     }
                             }
@@ -183,8 +182,7 @@ export class Trka{
                     if(pozicijaV > 20 || pozicijaV <= 0) {
                         alert("Nevalidna pozicija!");
                     } else if((imeV == "" && prezimeV != "") || (imeV != "" && prezimeV == "")) {
-                        //update
-                        alert("UPDATE");
+                        
                     } else alert("Popunite trazena polja validnim podacima!");
                 }  
             }

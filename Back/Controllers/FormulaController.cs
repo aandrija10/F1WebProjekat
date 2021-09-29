@@ -23,13 +23,13 @@ namespace Back.Controllers
         [Route("PreuzmiSampionate")]
         [HttpGet]
         public async Task<List<Sampionat>> PreuzmiSampionate() {
-            return await Context.Sampionati.Include(p => p.TrkeSezona).ThenInclude(p => p.Vozaci).ToListAsync();
-        }
+            return await Context.Sampionati.ToListAsync(); //return await Context.Sampionati.Include(p => p.TrkeSezona).ThenInclude(p => p.Vozaci).ToListAsync();
+        } 
 
         [Route("PreuzmiSampionat/{id}")]
         [HttpGet]
         public async Task<List<Sampionat>> PreuzmiSampionat(int id) {
-            return await Context.Sampionati.Where(el => el.ID == id).Include(p => p.TrkeSezona).ThenInclude(p => p.Vozaci).ToListAsync();
+            return await Context.Sampionati.Where(el => el.ID == id).Include(p => p.TrkeSezona).ToListAsync(); //return await Context.Sampionati.Where(el => el.ID == id).Include(p => p.TrkeSezona).ThenInclude(p => p.Vozaci).ToListAsync();
         }
 
         [Route("PreuzmiTrku/{id}")]
@@ -52,6 +52,9 @@ namespace Back.Controllers
         [HttpDelete]
         public async Task<IActionResult> ObrisiTrku(int id){
             Trka t = await Context.Trke.Include(el => el.Vozaci).FirstOrDefaultAsync(c => c.ID == id);
+            t.Vozaci.ForEach(el =>{
+                Context.Vozaci.Remove(el);
+            });
             Context.Trke.Remove(t);
             await Context.SaveChangesAsync();
             return StatusCode(200);
