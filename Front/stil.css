@@ -3,6 +3,7 @@
     border:  1px solid black;
     margin: 5px;
     padding: 5px;
+    flex-wrap: wrap-reverse;
 }
 .kontForma{
     display: flex;
